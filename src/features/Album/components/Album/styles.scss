@@ -1,0 +1,17 @@
+.album__item {
+     text-align: center;
+     &-img {
+          width: 220px;
+          height: 220px;
+          border-radius: 12px;
+     }
+     &-name {
+          margin-top: 8px;
+          font-weight: 500;
+     }
+     &-desc {
+          margin-top: 8px;
+          font-style: italic;
+          font-size: 16px;
+     }
+}
